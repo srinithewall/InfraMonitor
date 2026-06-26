@@ -1,0 +1,49 @@
+{
+  "metrics": {
+    "totalRequests": 513250,
+    "dbQueries": 54211,
+    "activeConnections": 21,
+    "slowQueries": 0
+  },
+  "databaseHealth": {
+    "users": 124,
+    "posts": 2431,
+    "marketplace": 145,
+    "services": 82,
+    "villages": 12,
+    "events": 18,
+    "chats": 1256
+  },
+  "trend": [
+    { "date": "18 Jun", "queries": 30000 },
+    { "date": "19 Jun", "queries": 38000 },
+    { "date": "20 Jun", "queries": 28000 },
+    { "date": "21 Jun", "queries": 46000 },
+    { "date": "22 Jun", "queries": 35000 },
+    { "date": "23 Jun", "queries": 61000 },
+    { "date": "24 Jun", "queries": 52000 }
+  ],
+  "topEndpoints": [
+    { "endpoint": "/api/posts", "count": 6321 },
+    { "endpoint": "/api/users", "count": 2145 },
+    { "endpoint": "/api/marketplace", "count": 1042 },
+    { "endpoint": "/api/services", "count": 541 },
+    { "endpoint": "/api/events", "count": 412 }
+  ],
+  "growth": {
+    "newUsers": 14,
+    "newPosts": 37,
+    "newListings": 9,
+    "newServices": 6
+  },
+  "resources": {
+    "cpu": 42,
+    "memory": 58,
+    "disk": 37
+  },
+  "alerts": [
+    "Slow Queries = 0",
+    "Connections Normal",
+    "Database Healthy"
+  ]
+}

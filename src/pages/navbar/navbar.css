@@ -1,0 +1,486 @@
+.navbar {
+
+  width:100%;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+
+  padding:18px 24px;
+
+
+  background:
+
+  linear-gradient(
+    145deg,
+    #16121f,
+    #0b0b0f
+  );
+
+
+  border-bottom:
+
+  1px solid #2e1b4d;
+
+
+  position:relative;
+
+
+}
+
+
+
+/* LEFT SECTION */
+
+.navbar-left {
+
+
+  display:flex;
+
+
+  align-items:center;
+
+
+  gap:14px;
+
+
+}
+
+
+
+.logo {
+
+
+  width:48px;
+
+  height:48px;
+
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+
+  border-radius:14px;
+
+
+  background:
+
+
+  linear-gradient(
+  135deg,
+  #7c3aed,
+  #a855f7
+  );
+
+
+  color:white;
+
+
+  font-weight:800;
+
+
+  font-size:18px;
+
+
+  box-shadow:
+
+  0 0 20px rgba(168,85,247,.35);
+
+
+}
+
+
+
+.project-title {
+
+
+  margin:0;
+
+
+  color:#ffffff;
+
+
+  font-size:22px;
+
+
+  font-weight:700;
+
+
+}
+
+
+
+.project-subtitle {
+
+
+  margin:4px 0 0;
+
+
+  color:#a1a1aa;
+
+
+  font-size:14px;
+
+
+}
+
+
+
+
+
+
+
+
+/* RIGHT SECTION */
+
+
+.navbar-right {
+
+
+  display:flex;
+
+
+  align-items:center;
+
+
+  gap:12px;
+
+
+}
+
+
+
+
+.dropdown {
+
+
+  position:relative;
+
+
+}
+
+
+
+
+.filter-btn {
+
+
+  display:flex;
+
+
+  align-items:center;
+
+
+  gap:8px;
+
+
+  padding:10px 14px;
+
+
+  border-radius:10px;
+
+
+  background:#18181b;
+
+
+  color:#e4e4e7;
+
+
+  border:
+
+  1px solid #3b245f;
+
+
+  cursor:pointer;
+
+
+}
+
+
+
+.filter-btn:hover {
+
+
+  border-color:#8b5cf6;
+
+
+}
+
+
+
+
+
+
+
+
+/* DROPDOWN PANEL */
+
+
+.dropdown-panel {
+
+
+  position:absolute;
+
+
+  top:48px;
+
+
+  right:0;
+
+
+  z-index:50;
+
+
+  background:#18181b;
+
+
+  border:
+
+
+  1px solid #3b245f;
+
+
+  border-radius:12px;
+
+
+  padding:10px;
+
+
+  box-shadow:
+
+
+  0 10px 30px rgba(0,0,0,.5);
+
+
+}
+
+
+
+
+
+
+
+.dropdown-panel.small {
+
+
+  width:160px;
+
+
+}
+
+
+
+
+
+
+.dropdown-item {
+
+
+  padding:10px;
+
+
+  color:#ddd;
+
+
+  border-radius:8px;
+
+
+  cursor:pointer;
+
+
+}
+
+
+
+.dropdown-item:hover {
+
+
+  background:#2e1065;
+
+
+  color:white;
+
+
+}
+
+
+
+
+
+
+
+
+/* DATEPICKER DARK THEME */
+
+
+.react-datepicker{
+  background:#18181b!important;
+  border:1px solid #3b245f!important;
+  color:white!important;
+}
+
+.react-datepicker__header{
+  background:#211632!important;
+  border-bottom:1px solid #3b245f!important;
+}
+
+.react-datepicker__current-month{
+  color:white!important;
+}
+
+.react-datepicker__month-select,
+.react-datepicker__year-select{
+  background:#09090b!important;
+  color:white!important;
+  border:1px solid #7c3aed!important;
+  border-radius:6px;
+  padding:5px;
+}
+
+.react-datepicker__month-select option,
+.react-datepicker__year-select option{
+  background:#18181b;
+  color:white;
+}
+
+.react-datepicker__day-name{
+  color:#c084fc!important;
+}
+
+.react-datepicker__day{
+  color:#e4e4e7!important;
+}
+
+.react-datepicker__day:hover{
+  background:#7c3aed!important;
+  color:white!important;
+  border-radius:50%;
+}
+
+.react-datepicker__day--selected{
+  background:#8b5cf6!important;
+  color:white!important;
+  border-radius:50%;
+}
+
+.react-datepicker__day--today{
+  border:1px solid #a855f7;
+}
+
+.react-datepicker__navigation-icon::before{
+  border-color:#c084fc!important;
+}
+
+.react-datepicker__day--disabled{
+  color:#52525b!important;
+}
+
+
+
+
+
+
+
+
+/* REFRESH */
+
+
+.refresh-btn {
+
+
+  width:42px;
+
+
+  height:42px;
+
+
+  display:flex;
+
+
+  justify-content:center;
+
+
+  align-items:center;
+
+
+  border-radius:10px;
+
+
+  border:
+
+
+  1px solid #3b245f;
+
+
+  background:#18181b;
+
+
+  color:#c084fc;
+
+
+  cursor:pointer;
+
+
+}
+
+
+
+.refresh-btn:hover {
+
+
+  background:#2e1065;
+
+
+  color:white;
+
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+
+
+.navbar{
+
+
+flex-direction:column;
+
+
+align-items:flex-start;
+
+
+gap:15px;
+
+
+}
+
+
+
+.navbar-right{
+
+
+width:100%;
+
+
+justify-content:flex-start;
+
+
+flex-wrap:wrap;
+
+
+}
+
+
+}
